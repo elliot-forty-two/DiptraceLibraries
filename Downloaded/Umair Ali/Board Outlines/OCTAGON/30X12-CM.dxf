@@ -1,0 +1,638 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1006
+  9
+$EXTMIN
+ 10
+0.000000
+ 20
+0.000000
+  9
+$EXTMAX
+ 10
+11.831667
+ 20
+4.823333
+  9
+$LTSCALE
+ 40
+0.166667
+  9
+$PDMODE
+ 70
+    35
+  9
+$PDSIZE
+ 40
+0.133333
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+ 70
+     9
+  0
+LTYPE
+  2
+CONTINUOUS
+ 70
+    64
+  3
+Solid line
+ 72
+    65
+ 73
+     0
+ 40
+0.000000
+  0
+LTYPE
+  2
+DASHED
+ 70
+    64
+  3
+__ __ __ __ __ __ __ __ __ __ __ __ __ __ __
+ 72
+    65
+ 73
+     2
+ 40
+0.001250
+ 49
+0.000833
+ 49
+-0.000417
+  0
+LTYPE
+  2
+HIDDEN
+ 70
+    64
+  3
+ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ 72
+    65
+ 73
+     2
+ 40
+0.000625
+ 49
+0.000417
+ 49
+-0.000208
+  0
+LTYPE
+  2
+CENTER
+ 70
+    64
+  3
+____ _ ____ _ ____ _ ____ _ ____ _ ____ _ ____
+ 72
+    65
+ 73
+     4
+ 40
+0.003333
+ 49
+0.002083
+ 49
+-0.000417
+ 49
+0.000417
+ 49
+-0.000417
+  0
+LTYPE
+  2
+PHANTOM
+ 70
+    64
+  3
+_____ _ _ _____ _ _ _____ _ _ _____ _ _ ____
+ 72
+    65
+ 73
+     6
+ 40
+0.004167
+ 49
+0.002083
+ 49
+-0.000417
+ 49
+0.000417
+ 49
+-0.000417
+ 49
+0.000417
+ 49
+-0.000417
+  0
+LTYPE
+  2
+DOT
+ 70
+    64
+  3
+...............................................
+ 72
+    65
+ 73
+     2
+ 40
+0.000417
+ 49
+0.000000
+ 49
+-0.000417
+  0
+LTYPE
+  2
+DASHDOT
+ 70
+    64
+  3
+__ . __ . __ . __ . __ . __ . __ . __ . __ . __
+ 72
+    65
+ 73
+     4
+ 40
+0.001667
+ 49
+0.000833
+ 49
+-0.000417
+ 49
+0.000000
+ 49
+-0.000417
+  0
+LTYPE
+  2
+BORDER
+ 70
+    64
+  3
+__ __ . __ __ . __ __ . __ __ . __ __ . __ __
+ 72
+    65
+ 73
+     6
+ 40
+0.002917
+ 49
+0.000833
+ 49
+-0.000417
+ 49
+0.000833
+ 49
+-0.000417
+ 49
+0.000000
+ 49
+-0.000417
+  0
+LTYPE
+  2
+DIVIDE
+ 70
+    64
+  3
+__ . . __ . . __ . . __ . . __ . . __ . . __
+ 72
+    65
+ 73
+     6
+ 40
+0.002083
+ 49
+0.000833
+ 49
+-0.000417
+ 49
+0.000000
+ 49
+-0.000417
+ 49
+0.000000
+ 49
+-0.000417
+  0
+LTYPE
+  2
+DOTDOT
+ 70
+    64
+  3
+ . .  . .  . .  . .  . .  . . 
+ 72
+    65
+ 73
+     5
+ 40
+0.000917
+ 49
+-0.000417
+ 49
+0.000000
+ 49
+-0.000417
+ 49
+0.000000
+ 49
+-0.000417
+  0
+ENDTAB
+  0
+TABLE
+  2
+STYLE
+ 70
+     2
+  0
+STYLE
+ 70
+     0
+  2
+SN0
+ 40
+0.000000
+ 41
+0.001667
+ 50
+0.000000
+ 71
+     0
+ 42
+0.000000
+  3
+ROMAND
+  0
+STYLE
+ 70
+    68
+  2
+SV0
+ 40
+0.000000
+ 41
+0.001667
+ 50
+0.000000
+ 71
+     0
+ 42
+0.000000
+  3
+ROMAND
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+ 70
+     2
+  0
+LAYER
+  2
+FOREGROUND
+ 70
+    64
+ 62
+     7
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+BACKGROUND
+ 70
+    65
+ 62
+    -7
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 66
+     1
+ 40
+0.000000
+ 41
+0.000000
+ 70
+     1
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.606667
+ 20
+4.773333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+10.223333
+ 20
+4.773333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+11.780000
+ 20
+3.216667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+11.780000
+ 20
+1.608333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+10.223333
+ 20
+0.051667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.606667
+ 20
+0.051667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+0.050000
+ 20
+1.608333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+0.050000
+ 20
+3.216667
+  0
+SEQEND
+  8
+0
+  0
+POLYLINE
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 66
+     1
+ 40
+0.001667
+ 41
+0.001667
+ 70
+     1
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.608333
+ 20
+4.773333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.611667
+ 20
+4.763333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+0.060000
+ 20
+3.211667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+0.060000
+ 20
+1.611667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.611667
+ 20
+0.060000
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+10.220000
+ 20
+0.060000
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+11.771667
+ 20
+1.611667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+11.771667
+ 20
+3.211667
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+10.220000
+ 20
+4.763333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.611667
+ 20
+4.763333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.608333
+ 20
+4.773333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+10.223333
+ 20
+4.773333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+11.781667
+ 20
+3.215000
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+11.781667
+ 20
+1.608333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+10.223333
+ 20
+0.050000
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+1.608333
+ 20
+0.050000
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+0.050000
+ 20
+1.608333
+  0
+VERTEX
+  8
+FOREGROUND
+  6
+CONTINUOUS
+ 10
+0.050000
+ 20
+3.215000
+  0
+SEQEND
+  8
+0
+  0
+ENDSEC
+  0
+EOF
