@@ -1,0 +1,43 @@
+This ZIP file should contain three files:
+-this text file, "TE_Connectivity-Amp_MTA-156_Headers.txt"
+-"AMP.lib", a DipTrace library file of PC layout patterns for the connectors
+-"AMP_MTA156.eli", a DipTrace eli file of schematic components for the connectors
+
+Put the two DipTrace files into your DipTrace\lib directory, or
+other directory of your choice, and you should be able to add
+them to the set of libraries available in your schematic editor.
+
+These connectors are commonly used for power connections
+(including connections to power sinks/loads, as well as sources)
+to external devices.  These connectors are documented in data
+sheets from TE Connectivity/Amp.  The TE Connectivity/AMP
+data sheets referenced while building these patterns were:
+
+C-640387, rev AE1 (ENG_CD_640387_AE1.pdf)
+C-640389, rev AD1 (ENG_CD_640389_AD1.pdf)
+C-640455, rev AD (ENG_CD_640455_AD.pdf)
+
+The data sheets recommend 0.070 +.010/-.000 holes on 0.063 thick
+p.c. board material (dimensions in inches).  They also note, "One
+hole may be undersized (.065/.060) for assembly retention during
+wave soldering."
+
+I've attached a "mtg note" to each component, listing the
+recommended setback from the board edge (for the centerline of
+the row of holes) for use when mated with MTA-156 connectors.
+For use when mated with SL-156 connectors, the following
+recommendations for setback from the board edge apply:
+640387:  0.500 minimum
+640389:  0.325-0.345
+640455:  0.175 minimum (same as for mating with MTA-156 connectors.)
+
+You will find, for each pattern, that the silk layer shows
+the plastic part of the connector, and the assembly layer
+shows the plastic part and the pins.  Since the pins
+may go beyond the edge of the board, I wanted to avoid
+putting them on the silk layer.
+
+I would appreciate knowing about any errors you find in these
+files.
+
+Tom Bruhns -- k7itm at msn dot com
